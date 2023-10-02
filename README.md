@@ -5,10 +5,11 @@
 # test-oysho-cypress
 This repository was created to test the official Oysho website,
 following these instructions:
-    - [x] Visit the page and verify the title.
-    - [x] Verify that navigation is working properly.
-    - [x] Perform verifications and actions.
-    - [x] Create a workflow in GitHub Actions to run these tests every night.
+
+- [x] Visit the page and verify the title.
+- [x] Verify that navigation is working properly.
+- [x] Perform verifications and actions.
+- [x] Create a workflow in GitHub Actions to run these tests every night.
 
 ## How to run the tests locally
 
@@ -28,6 +29,4 @@ To set up a local copy follow these simple steps.
    ```
 
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/jose-luis-requena-etcheverria/
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://www.linkedin.com/in/jose-luis-requena-etcheverria/)
