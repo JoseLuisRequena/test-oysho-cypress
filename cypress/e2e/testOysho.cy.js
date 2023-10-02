@@ -28,31 +28,31 @@ describe('Test Nav', () => {
         cy.get('[data-testid="header"]').click(30,30)
     })
   
-    it('Nav, NOVEDADES', () =>{
+    it('Nav, NEW ARRIVALS', () =>{
         cy.get('[data-categoryid="1010062530"]').click(50,5)
     })
   
-    it('Nav, DEPORTE --> NOVEDADES', () =>{
+    it('Nav, SPORT --> NEW ARRIVALS', () =>{
         cy.get('[data-categoryid="1010131105"').click(50,5)
         cy.get('[data-categoryid="1010131105"]').find('ul>li').eq(0).click(15,5)
     })
   
-    it('Nav, DEPORTE --> LEEGGINGS', () =>{
+    it('Nav, SPORT --> LEEGGINGS', () =>{
         cy.get('[data-categoryid="1010131105"]').click(50,5)
         cy.get('[data-categoryid="1010131105"]').contains('LEGGINGS').click(5,5)
     })
     
-    it('Nav, CALZADO --> NOVEDADES', () =>{
+    it('Nav, FOOTWEAR --> NEW ARRIVALS', () =>{
         cy.get('[data-categoryid="1010131066"]').click(50,5)
         cy.get('[data-categoryid="1010131066"]').find('ul>li').eq(0).click()
     })
 
-    it('Nav,CALZADO --> BOTAS', () =>{
+    it('Nav, FOOTWEAR --> BOOTS', () =>{
         cy.get('[data-categoryid="1010131066"]').click(50,5)
         cy.get('[data-categoryid="1010131066"]').find('ul>li').eq(2).click()
     })
 
-    it('Nav, CALZADO --> ZAPATILLAS' , () =>{
+    it('Nav, FOOTWEAR --> SLIPPERS' , () =>{
         cy.get('[data-categoryid="1010131066"]').click(50,5)
         cy.get('[data-categoryid="1010131066"]').find('ul>li').eq(5).click()
     })
